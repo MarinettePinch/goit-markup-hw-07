@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,700;1,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container flex">
+        <nav class="header-site-nav flex">
+          <a class="link" href="./index.html">
+            <svg width="145" height="31">
+              <use class="logo" href="./img/sprite.svg#ws-logo"></use>
+            </svg>
+          </a>
+          <ul class="header-site-nav-items flex">
+            <li class="list"><a class="link" href="./index.html">Студия</a></li>
+            <li class="list">
+              <a class="link current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="list"><a class="link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-site-nav-address flex">
+            <li class="list">
+              <a class="link flex" href="mailto:info@devstudio.com">
+                <svg width="16" height="12">
+                  <use
+                    class="address-icon"
+                    href="./img/sprite.svg#envelope"
+                  ></use>
+                </svg>
+                <span class="span">info@devstudio.com</span>
+              </a>
+            </li>
+            <li class="list">
+              <a class="link flex" href="tel:+380961111111">
+                <svg width="10" height="16">
+                  <use
+                    class="address-icon"
+                    href="./img/sprite.svg#smartphone"
+                  ></use>
+                </svg>
+                <span class="span">+38 096 111 11 11</span>
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <!--portfolio section-->
+    <main>
+      <section class="display">
+        <div class="container">
+          <h1 hidden>Портфолио</h1>
+          <!--button container-->
+          <div>
+            <ul class="display-buttons">
+              <li class="list">
+                <button class="display-button" type="button">Все</button>
+              </li>
+              <li class="list">
+                <button class="display-button" type="button">Веб-сайты</button>
+              </li>
+              <li class="list">
+                <button class="display-button" type="button">Приложения</button>
+              </li>
+              <li class="list">
+                <button class="display-button" type="button">Дизайн</button>
+              </li>
+              <li class="list">
+                <button class="display-button" type="button">Маркетинг</button>
+              </li>
+            </ul>
+          </div>
+          <!--/button container-->
+          <!--projects container-->
+          <div>
+            <ul class="projects flex">
+              <li class="list projects-list">
+                <a class="link" href="#">
+                  <figure class="projects-item">
+                    <div class="box">
+                      <img src="./img/portfolio-img1.jpg" alt="Технокряк" />
+                      <div class="overley">
+                        <p class="descripnion">
+                          Технокряк это современная площадка распространения
+                          коронавируса. Компании используют эту платформу для
+                          цифрового шпионажа и атак на защищённые сервера
+                          конкурентов.
+                        </p>
+                      </div>
+                    </div>
+                    <figcaption class="projects-caption">
+                      <h3 class="projects-caption-title">Технокряк</h3>
+                      <p class="projects-caption-clip">Веб-сайт</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="list projects-list">
+                <a class="link" href="#">
+                  <figure class="projects-item">
+                    <img
+                      src="./img/portfolio-img2.jpg"
+                      alt="Постер New Orlean vs Golden Star"
+                    />
+                    <figcaption class="projects-caption">
+                      <h3 class="projects-caption-title">
+                        Постер New Orlean vs Golden Star
+                      </h3>
+                      <p class="projects-caption-clip">Дизайн</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="list projects-list">
+                <a class="link" href="#">
+                  <figure class="projects-item">
+                    <img
+                      src="./img/portfolio-img3.jpg"
+                      alt="Ресторан Seafood"
+                    />
+                    <figcaption class="projects-caption">
+                      <h3 class="projects-caption-title">Ресторан Seafood</h3>
+                      <p class="projects-caption-clip">Приложение</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="list projects-list">
+                <a class="link" href="#">
+                  <figure class="projects-item">
+                    <img src="./img/portfolio-img4.jpg" alt="Проект Prime" />
+                    <figcaption class="projects-caption">
+                      <h3 class="projects-caption-title">Проект Prime</h3>
+                      <p class="projects-caption-clip">Маркетинг</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="list projects-list">
+                <a class="link" href="#">
+                  <figure class="projects-item">
+                    <img src="./img/portfolio-img5.jpg" alt="Проект Boxes" />
+                    <figcaption class="projects-caption">
+                      <h3 class="projects-caption-title">Проект Boxes</h3>
+                      <p class="projects-caption-clip">Приложение</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="list projects-list">
+                <a class="link" href="#">
+                  <figure class="projects-item">
+                    <img
+                      src="./img/portfolio-img6.jpg"
+                      alt="Inspiration has no Borders"
+                    />
+                    <figcaption class="projects-caption">
+                      <h3 class="projects-caption-title">
+                        Inspiration has no Borders
+                      </h3>
+                      <p class="projects-caption-clip">Веб-сайт</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="list projects-list">
+                <a class="link" href="#">
+                  <figure class="projects-item">
+                    <img
+                      src="./img/portfolio-img7.jpg"
+                      alt="Издание Limited Edition"
+                    />
+                    <figcaption class="projects-caption">
+                      <h3 class="projects-caption-title">
+                        Издание Limited Edition
+                      </h3>
+                      <p class="projects-caption-clip">Дизайн</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="list projects-list">
+                <a class="link" href="#">
+                  <figure class="projects-item">
+                    <img src="./img/portfolio-img8.jpg" alt="Проект LAB" />
+                    <figcaption class="projects-caption">
+                      <h3 class="projects-caption-title">Проект LAB</h3>
+                      <p class="projects-caption-clip">Маркетинг</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li class="list projects-list">
+                <a class="link" href="#">
+                  <figure class="projects-item">
+                    <img
+                      src="./img/portfolio-img9.jpg"
+                      alt="Growing Business"
+                    />
+                    <figcaption class="projects-caption">
+                      <h3 class="projects-caption-title">Growing Business</h3>
+                      <p class="projects-caption-clip">Приложение</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--/projects container-->
+        <!--/portfolio section-->
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container flex">
+        <div class="footer-contacts">
+          <a class="link" href="#">
+            <svg width="145" height="31">
+              <use class="logo" href="./img/sprite.svg#ws-logo-light"></use>
+            </svg>
+          </a>
+          <address class="footer-address">
+            <ul>
+              <li class="list">г. Киев, пр-т Леси Украинки, 26</li>
+              <li class="list">
+                <a class="link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="list">
+                <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
+          <h3 class="title-upp footer-title">присоединяйтесь</h3>
+          <ul class="footer-social-items flex">
+            <li class="list social-list flex">
+              <a class="link flex" href="#">
+                <svg width="20" height="20">
+                  <use class="icon" href="./img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list social-list flex">
+              <a class="link flex" href="#">
+                <svg width="20" height="20">
+                  <use class="icon" href="./img/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list social-list flex">
+              <a class="link flex" href="#">
+                <svg width="20" height="20">
+                  <use class="icon" href="./img/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list social-list flex">
+              <a class="link flex" href="#">
+                <svg width="20" height="20">
+                  <use class="icon" href="./img/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form class="footer-form">
+          <h3 class="title-upp footer-title">Подпишитесь на рассылку</h3>
+          <div class="flex">
+            <label for="footer-mail"></label>
+            <input
+              type="email"
+              placeholder="E-mail"
+              id="footer-mail"
+              class="footer-mail footer"
+            />
+            <button type="submit" class="subscribe-btn flex">
+              Подписаться
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./img/sprite.svg#send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
