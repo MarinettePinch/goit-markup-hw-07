@@ -1,3 +1,23 @@
+/*Color palette*/
+/*Typographic*/
+/*h1*/
+/*h2*/
+/*h3*/
+/*h4*/
+/*h5*/
+/*h6*/
+/*text L*/
+/*text M*/
+/*text S*/
+/*footer's links text*/
+/*button's text*/
+/*header's links text*/
+/*navigation links*/
+/*phone namber*/
+/*e-mail*/
+/*Geometry*/
+/*Transition*/
+/*Shadow*/
 *,
 *::before,
 *::after {
@@ -9,5 +29,53 @@
 
 body {
   font-family: Roboto, sans-serif;
+  font-style: normal;
+  color: #212121;
+  background-color: white;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  width: 145px;
+  height: 31px;
+  color: #2196f3;
+}
+
+.logo__acsent {
+  color: #212121;
+}
+
+.logo__acsent--inversion {
+  color: white;
+}
+
+.header__logo {
+  margin: 24px 0;
+}
+
+.footer__logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */

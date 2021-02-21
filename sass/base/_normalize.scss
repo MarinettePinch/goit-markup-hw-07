@@ -8,4 +8,36 @@
 
 body {
   font-family: Roboto, sans-serif;
+  font-style: normal;
+  color: $primary-text-color;
+  background-color: $light-text-color;
+  letter-spacing: 0.03em;
+}
+
+%flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+%flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+%whole-area {
+  height: 100%;
+  width: 100%;
+}
+
+%link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+%list {
+  list-style-type: none;
 }
