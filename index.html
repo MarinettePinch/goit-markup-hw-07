@@ -18,21 +18,21 @@
   <body>
     <header class="header">
       <div class="container">
-        <a class="logo header__logo" href="./index.html">
-          <span class="logo__acsent">Web</span>Studio
-        </a>
         <nav class="page-nav header__page-nav">
-        <ul class="page-nav__items">
-          <li class="page-nav__list">
-            <a class="page-nav__link current" href="./index.html">Студия</a>
-          </li>
-          <li class="page-nav__list">
-            <a class="page-nav__link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="page-nav__list">
-            <a class="page-nav__link" href="#">Контакты</a>
-          </li>
-        </ul>
+          <a class="logo header__logo" href="./index.html">
+            <span class="logo__acsent">Web</span>Studio
+          </a>
+          <ul class="page-nav__items">
+            <li class="page-nav__list">
+              <a class="page-nav__link current" href="./index.html">Студия</a>
+            </li>
+            <li class="page-nav__list">
+              <a class="page-nav__link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="page-nav__list">
+              <a class="page-nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
         </nav>
         <address class="address header__address">
           <ul class="address__items">
@@ -77,7 +77,7 @@
       </section>
       <!--/main section-->
       <!--competences section-->
-      <section class="section">
+      <section class="section section--low">
         <div class="container">
           <h2 class="section__title" hidden>Компетенции</h2>
           <ul class="cards section__cards">
@@ -204,7 +204,7 @@
       </section>
       <!--/what we do section-->
       <!--our team section-->
-      <section class="section">
+      <section class="section section--grey">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="cards section__cards">
@@ -498,25 +498,27 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logo footer__logo" href="./index.html">
-          <span class="logo__acsent logo__acsent--inversion">Web</span>Studio
-        </a>
-        <address class="footer__address">  
-          <ul >
-            <li class="list">г. Киев, пр-т Леси Украинки, 26</li>
-            <li class="list">
-              <a class="link" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li class="list">
-              <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
-            </li>
-          </ul>
-        </address>
-        <div class="footer-social">
-          <h6 class="title-upp footer-title">присоединяйтесь</h6>
-          <ul class="footer-social-items flex">
+        <div class="footer__contacts">
+          <a class="logo footer__logo" href="./index.html">
+            <span class="logo__acsent logo__acsent--inversion">Web</span>Studio
+          </a>
+          <address class="address footer__address">  
+            <ul class="address__items address__items--column">
+              <li class="address__list">г. Киев, пр-т Леси Украинки, 26</li>
+              <li class="address__list">
+                <a class="address__link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address__list">
+                <a class="address__link" href="tel:+380991111111">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer__social">
+          <h6 class="footer-title title--upp">присоединяйтесь</h6>
+          <ul class="buttons footer__buttons">
             <li class="buttons__list">
               <a class="button button--round" href="#">
                 <svg width="20" height="20">
@@ -548,23 +550,21 @@
           </ul>
         </div>
         <form class="footer-form">
-          <h6 class="title-upp footer-title">Подпишитесь на рассылку</h6>
-          <div class="flex">
-            <label for="footer-mail"></label>
-            <input
-              name="email"
-              type="email"
-              placeholder="E-mail"
-              id="footer-mail"
-              class="footer-mail footer"
-            />
-            <button type="submit" class="subscribe-btn flex">
+          <h6 class="footer-title title--upp">Подпишитесь на рассылку</h6>
+          <label class="input_label">
+              <input
+                name="email"
+                type="email"
+                placeholder="E-mail"
+                class="input"
+              />
+          </label>
+          <button type="submit" class="button">
               Подписаться
-              <svg class="footer-btn-icon" width="24" height="24">
+              <svg class="button__icon" width="24" height="24">
                 <use href="./img/sprite.svg#send"></use>
               </svg>
-            </button>
-          </div>
+          </button>
         </form>
       </div>
     </footer>

@@ -1,0 +1,7 @@
+.card {
+  width: 270px;
+}
+
+.card__image-box {
+  @extend %flex-c;
+}

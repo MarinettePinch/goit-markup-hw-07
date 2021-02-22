@@ -14,6 +14,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.title--upp {
+  text-transform: uppercase;
+}
+
 %flex-sb {
   display: flex;
   justify-content: space-between;
@@ -35,7 +39,6 @@ body {
 
 %link {
   text-decoration: none;
-  color: currentColor;
 }
 
 %list {

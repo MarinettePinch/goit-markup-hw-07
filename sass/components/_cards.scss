@@ -1,0 +1,7 @@
+.cards {
+  @extend %flex-sb;
+}
+
+.cards__list {
+  @extend %list;
+}

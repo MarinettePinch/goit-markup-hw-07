@@ -1,0 +1,25 @@
+.button {
+  @extend %link;
+  background-color: $hover-text-color;
+  padding: 10px 32px;
+  border-radius: $radius;
+  min-width: 200px;
+  min-height: 50px;
+  color: $light-text-color;
+  font-size: $button-text-size-s;
+  font-weight: $button-text-weight;
+  line-height: $button-text-line-height;
+}
+
+.button--round {
+  @extend %flex-c;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  padding: 0;
+  transition: background-color var(--transition-animation);
+}
+
+.button__icon {
+  fill: currentColor;
+}

@@ -1,0 +1,10 @@
+.buttons {
+  @extend %flex-sb;
+}
+
+.buttons__list {
+  @extend %list;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
