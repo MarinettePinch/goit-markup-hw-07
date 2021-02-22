@@ -1,25 +1,52 @@
 .button {
   @extend %link;
-  background-color: $hover-text-color;
-  padding: 10px 32px;
+  @extend %flex-c;
+  padding: 6px 22px;
   border-radius: $radius;
-  min-width: 200px;
-  min-height: 50px;
-  color: $light-text-color;
+  background-color: $secondry-background-color;
   font-size: $button-text-size-s;
   font-weight: $button-text-weight;
   line-height: $button-text-line-height;
+  border: none;
+}
+
+.button--size-l {
+  background-color: $hover-text-color;
+  color: $light-text-color;
+  min-width: 200px;
+  min-height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button__span {
+  margin-right: 10px;
 }
 
 .button--round {
-  @extend %flex-c;
   min-width: 44px;
   min-height: 44px;
   border-radius: 50%;
   padding: 0;
-  transition: background-color var(--transition-animation);
+  background-color: $icons-bg-footer-color;
+  transition: background-color $transition-animation,
+    color $transition-animation;
+}
+
+.button--inversion {
+  background-color: $light-text-color;
+  color: $icons-color;
 }
 
 .button__icon {
   fill: currentColor;
+}
+
+.button--size-s {
+  min-width: 30px;
+  min-height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: color $transition-animation;
+  &:hover {
+    background-color: $light-text-color;
+  }
 }

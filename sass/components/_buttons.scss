@@ -2,6 +2,10 @@
   @extend %flex-sb;
 }
 
+.buttons--center {
+  @extend %flex-c;
+}
+
 .buttons__list {
   @extend %list;
   &:not(:last-child) {

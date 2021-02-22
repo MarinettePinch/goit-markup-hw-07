@@ -1,7 +1,20 @@
 .cards {
   @extend %flex-sb;
+  align-items: flex-start;
 }
 
 .cards__list {
   @extend %list;
+}
+
+.cards__link {
+  @extend %link;
+}
+
+.section__cards {
+  margin-top: 50px;
+}
+
+.section__cards--low {
+  margin: 0;
 }

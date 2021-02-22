@@ -1,7 +1,14 @@
 .card {
   width: 270px;
+  background-color: $light-text-color;
+}
+
+.card--wide {
+  width: 370px;
 }
 
 .card__image-box {
   @extend %flex-c;
+  background-color: $secondry-background-color;
+  min-height: 120px;
 }

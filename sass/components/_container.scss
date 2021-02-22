@@ -5,4 +5,9 @@
   justify-content: inherit;
   align-items: inherit;
   flex-direction: inherit;
+  text-align: center;
+}
+
+.container--right {
+  text-align: start;
 }

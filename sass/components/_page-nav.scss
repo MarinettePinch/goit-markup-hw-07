@@ -10,7 +10,8 @@
 .page-nav__list {
   @extend %list;
   position: relative;
-  height: 16px;
+  display: block;
+  height: 14px;
   width: auto;
 
   &:not(:last-child) {
@@ -20,8 +21,7 @@
 
 .page-nav__link {
   @extend %link;
-  display: inline-block;
-  position: relative;
+  display: block;
   font-size: $nav-text-size;
   line-height: $tel-text-line-height;
   font-weight: $header-text-weight;
