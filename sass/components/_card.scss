@@ -11,4 +11,6 @@
   @extend %flex-c;
   background-color: $secondry-background-color;
   min-height: 120px;
+  position: relative;
+  overflow: hidden;
 }
