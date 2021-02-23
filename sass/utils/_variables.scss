@@ -44,9 +44,9 @@ $card-title-l-letter-spacing: 0.06em;
 
 /*h5*/
 
-$card-title-size-m: 16px;
-$card-title-m-weight: 500;
-$card-title-m-line-height: 1.19;
+$card-title-size: 16px;
+$card-title-weight: 500;
+$card-title-line-height: 1.19;
 
 /*h6*/
 
@@ -56,14 +56,19 @@ $card-title-s-line-height: 1.14;
 
 /*text L*/
 
-$text-size-l: 16px;
-$text-l-weight: normal;
+$text-size: 16px;
+$text-weight: normal;
+$text-line-height: 1.19;
 
 /*text M*/
 
 $text-size-m: 14px;
 $text-m-weight: normal;
 $text-m-line-height: 1.71;
+
+/*clip*/
+
+$clip-line-height: 1.87;
 
 /*text S*/
 
@@ -111,6 +116,7 @@ $radius: 4px;
 $header-hight: 80px;
 $header-padding: 24px 0;
 $container-width: 1170px;
+$title-pagging-bottom: 50px;
 $footer-padding-top: 60px;
 
 /*Transition*/
