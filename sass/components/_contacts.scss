@@ -15,9 +15,9 @@
 }
 
 .address__list--row {
+  margin-bottom: 0;
   &:not(:last-child) {
     margin-right: 50px;
-    margin-bottom: 0;
   }
 }
 
@@ -27,7 +27,6 @@
 }
 
 .address__link--row {
-  @extend %flex-sb;
   font-size: $mail-text-size;
   line-height: $mail-text-line-height;
   font-weight: $header-text-weight;

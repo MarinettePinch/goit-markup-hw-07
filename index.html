@@ -32,7 +32,7 @@
           </ul>
         </nav>
         <address class="address header__address">
-          <ul class="address__items .address__items--row">
+          <ul class="address__items address__items--row">
             <li class="address__list address__list--row">
               <a class="address__link address__link--row" href="mailto:info@devstudio.com">
                 <svg width="16" height="12">
@@ -548,19 +548,21 @@
         </div>
         <div class="subscrityion footer__subscrityion">
           <h6 class="footer__title title--upp">Подпишитесь на рассылку</h6>
-          <label class="input__label">
-              <input class="input"
-                name="email"
-                type="email"
-                placeholder="E-mail"
-                              />
-          </label>
-          <button type="submit" class="button button--size-l">
-              <span class="button__span">Подписаться</span>
-              <svg class="button__icon" width="24" height="24">
-                <use href="./img/sprite.svg#send"></use>
-              </svg>
-          </button>
+          <form class="subscrityion-form">
+            <label class="input__label">
+                <input class="input input--inversion"
+                  name="email"
+                  type="email"
+                  placeholder="E-mail"
+                                />
+            </label>
+            <button type="submit" class="button button--size-l">
+                <span class="button__span">Подписаться</span>
+                <svg class="button__icon" width="24" height="24">
+                  <use href="./img/sprite.svg#send"></use>
+                </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -569,82 +571,63 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="backdrop__modal">
-        <button type="button" class="button button--round button--size-s button__backdrop" data-modal-close>
+        <button type="button" class="button button--size-s button--round modal__button" data-modal-close>
           <svg width="11" height="11">
             <use href="./img/sprite.svg#form-close-btn"></use>
           </svg>
         </button>
-        <form class="modal-form">
-          <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
-
-          <!--username-->
-
-          <div class="modal-field">
-            <label class="modal-label" for="form-username">Имя </label>
-            <input
-              class="modal-input"
-              name="username"
-              type="text"
-              id="form-username"
-            />
-            <svg class="modal-icons" width="16" height="16">
-              <use class="modal-icon" href="./img/sprite.svg#form-person"></use>
-            </svg>
-          </div>
-
-          <!--/username-->
-          <!--tel-->
-
-          <div class="modal-field">
-            <label class="modal-label" for="form-tel">Телефон </label>
-            <input class="modal-input" name="tel" type="tel" id="form-tel" />
-
-            <svg class="modal-icons" width="16.61" height="16.61">
-              <use class="modal-icon" href="./img/sprite.svg#form-phone"></use>
-            </svg>
-          </div>
-
-          <!--/tel-->
-          <!--mail-->
-
-          <div class="modal-field">
-            <label class="modal-label" for="form-mail">Почта </label>
-            <input
-              class="modal-input"
-              name="mail"
-              type="email"
-              id="form-mail"
-            />
-
-            <svg class="modal-icons" width="20" height="14">
-              <use class="modal-icon" href="./img/sprite.svg#form-email"></use>
-            </svg>
-          </div>
-
-          <!--/mail-->
-          <!--message-->
-
-          <label class="modal-label" for="message">Комментарий </label>
-          <textarea
-            class="modal-input modal-message"
-            name="message"
-            placeholder="Введите текст"
-            id="message"
-            rows="6"
-          ></textarea>
+        <form class="form">
+          <h3 class="form__title">Оставьте свои данные, мы вам перезвоним</h3>
+            <label class="input__label">Имя 
+              <input
+                class="input"
+                name="username"
+                type="text"
+              />
+              <svg class="input__icons" width="16" height="16">
+                <use class="input__icon" href="./img/sprite.svg#form-person"></use>
+              </svg>
+            </label>
+            <label class="input__label">Телефон 
+                <input
+                  class="input"
+                  name=name="tel" type="tel"/>
+                <svg class="input__icons" width="16.61" height="16.61">
+                  <use class="input__icon" href="./img/sprite.svg#form-phone"></use>
+                </svg>
+              </label>
+            <label class="input__label">Почта 
+              <input
+                  class="input"
+                name="mail"
+                type="email"
+              />
+              <svg class="input__icons" width="20" height="14">
+                <use class="input__icon" href="./img/sprite.svg#form-email"></use>
+              </svg>
+            </label>
+            <label class="input__label">Комментарий 
+              <textarea
+                class="input input--message"
+                name="message"
+                placeholder="Введите текст"
+              
+                rows="6"
+              ></textarea>
+            </label>
 
           <!--/message-->
           <!--checkbox-->
 
           <input
-            class="modal-checkbox"
+            class="form__checkbox"
             type="checkbox"
             name="agreement-checkbox"
             id="form-checkbox"
           />
-          <label class="modal-agreement flex" for="form-checkbox">
+          <label class="form__agreement" for="form-checkbox">
             Соглашаюсь с рассылкой и принимаю
-            <a class="modal-link" href="#">Условия договора</a>
+            <a class="form__link" href="#">Условия договора</a>
           </label>
 
           <!--/checkbox-->

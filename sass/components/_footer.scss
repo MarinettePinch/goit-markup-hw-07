@@ -17,3 +17,8 @@
   line-height: $card-title-s-line-height;
   margin-bottom: 20px;
 }
+
+.subscrityion-form {
+  @extend %flex-sb;
+  align-items: flex-start;
+}
