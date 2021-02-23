@@ -1,17 +1,33 @@
 .address__items {
+  font-size: $footer-text-size;
+  font-weight: $footer-text-weight;
+  line-height: $footer-text-line-height;
+  font-style: normal;
+}
+
+.address__items--row {
   @extend %flex-sb;
 }
 
 .address__list {
   @extend %list;
+  margin-bottom: 9px;
+}
+
+.address__list--row {
   &:not(:last-child) {
     margin-right: 50px;
+    margin-bottom: 0;
   }
 }
 
 .address__link {
-  @extend %flex-sb;
   @extend %link;
+  color: $light-footer-text-color;
+}
+
+.address__link--row {
+  @extend %flex-sb;
   font-size: $mail-text-size;
   line-height: $mail-text-line-height;
   font-weight: $header-text-weight;

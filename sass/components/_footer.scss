@@ -7,7 +7,13 @@
   height: 252px;
 }
 
-.footer__contacts {
-  display: inline-block;
-  width: 230px;
+.footer__social {
+  padding-right: 23px;
+}
+
+.footer__title {
+  font-size: $card-title-size-s;
+  font-weight: $card-title-s-weight;
+  line-height: $card-title-s-line-height;
+  margin-bottom: 20px;
 }
