@@ -569,20 +569,23 @@ body {
           box-shadow: none;
 }
 
-.button__icon {
-  fill: currentColor;
-}
-
 .button--size-s {
+  color: #212121;
   min-width: 30px;
   min-height: 30px;
+  background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button--size-s:hover {
+.button--size-s:hover, .button--size-s:active, .button--size-s:focus {
+  color: #2196f3;
   background-color: white;
+}
+
+.button__icon {
+  fill: currentColor;
 }
 
 .backdrop {

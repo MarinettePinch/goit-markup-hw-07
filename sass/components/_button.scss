@@ -74,16 +74,21 @@
   }
 }
 
-.button__icon {
-  fill: currentColor;
-}
-
 .button--size-s {
+  color: $primary-text-color;
   min-width: 30px;
   min-height: 30px;
+  background-color: $light-text-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: color $transition-animation;
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
+    color: $hover-text-color;
     background-color: $light-text-color;
   }
+}
+
+.button__icon {
+  fill: currentColor;
 }
