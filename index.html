@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Вэб Студия</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -32,9 +35,12 @@
           </ul>
         </nav>
         <address class="address header__address">
-          <ul class="address__items">
-            <li class="address__list">
-              <a class="address__link" href="mailto:info@devstudio.com">
+          <ul class="address__items address__items--row">
+            <li class="address__list address__list--row">
+              <a
+                class="address__link address__link--row"
+                href="mailto:info@devstudio.com"
+              >
                 <svg width="16" height="12">
                   <use
                     class="address__icon"
@@ -44,8 +50,11 @@
                 <span class="address__span">info@devstudio.com</span>
               </a>
             </li>
-            <li class="address__list">
-              <a class="address__link" href="tel:+380961111111">
+            <li class="address__list address__list--row">
+              <a
+                class="address__link address__link--row"
+                href="tel:+380961111111"
+              >
                 <svg width="10" height="16">
                   <use
                     class="address__icon"
@@ -75,23 +84,29 @@
       <!--/main section-->
       <!--competences section-->
       <section class="section section--low">
-        <div class="container container--right">
+        <div class="container container--align-start">
           <h2 class="section__title" hidden>Компетенции</h2>
           <ul class="cards section__cards section__cards--low">
             <li class="cards__list">
               <figure class="card cards__card">
                 <div class="card__image-box">
                   <svg width="70" height="70">
-                    <use class="card__img" href="./img/sprite.svg#antenna"></use>
+                    <use
+                      class="card__img"
+                      href="./img/sprite.svg#antenna"
+                    ></use>
                   </svg>
                 </div>
-              <figcaption class="card__caption">
-                <h6 class="card__title title-upp">Внимание к деталям</h6>
-                <p class="card__text">
-                  Идейные соображения, а также начало повседневной работы по
-                  формированию позиции.
-                </p>
-              </figcaption>
+                <figcaption class="card__caption card__caption--low">
+                  <h6 class="card__title card__title--s title--upp">
+                    Внимание к деталям
+                  </h6>
+                  <p class="card__text card__text--size-m">
+                    Идейные соображения, а также начало повседневной работы по
+                    формированию позиции.
+                  </p>
+                </figcaption>
+              </figure>
             </li>
             <li class="cards__list">
               <figure class="card cards__card">
@@ -100,13 +115,16 @@
                     <use class="card__img" href="./img/sprite.svg#clock"></use>
                   </svg>
                 </div>
-              <figcaption class="card__caption">
-                <h6 class="card__title title-upp">Пунктуальность</h6>
-                <p class="card__text">
-                  Задача организации, в особенности же рамки и место обучения
-                  кадров влечет за собой.
-                </p>
-              </figcaption>
+                <figcaption class="card__caption card__caption--low">
+                  <h6 class="card__title card__title--s title--upp">
+                    Пунктуальность
+                  </h6>
+                  <p class="card__text card__text--size-m">
+                    Задача организации, в особенности же рамки и место обучения
+                    кадров влечет за собой.
+                  </p>
+                </figcaption>
+              </figure>
             </li>
             <li class="cards__list">
               <figure class="card cards__card">
@@ -115,11 +133,13 @@
                     <use href="./img/sprite.svg#diagram"></use>
                   </svg>
                 </div>
-                <figcaption class="card__caption">
-                  <h6 class="card__title title-upp">Планирование</h6>
-                  <p class="card__text">
-                  Равным образом консультация с широким активом в значительной
-                  степени обуславливает.
+                <figcaption class="card__caption card__caption--low">
+                  <h6 class="card__title card__title--s title--upp">
+                    Планирование
+                  </h6>
+                  <p class="card__text card__text--size-m">
+                    Равным образом консультация с широким активом в значительной
+                    степени обуславливает.
                   </p>
                 </figcaption>
               </figure>
@@ -131,11 +151,11 @@
                     <use href="./img/sprite.svg#astronaut"></use>
                   </svg>
                 </div>
-                <figcaption class="card__caption"></figcaption>
-                  <h6 class="card__title title-upp">
+                <figcaption class="card__caption card__caption--low">
+                  <h6 class="card__title card__title--s title--upp">
                     Современные технологии
                   </h6>
-                  <p class="card__text">
+                  <p class="card__text card__text--size-m">
                     Значимость этих проблем настолько очевидна, что реализация
                     плановых заданий.
                   </p>
@@ -160,9 +180,12 @@
                     width="370"
                   />
                 </div>
-                <figcaption class="card__caption card__caption--absolute">
-                  <h6 class="card__title title--upp">
-                  Десктопные приложения</h6>
+                <figcaption class="card__caption card__caption--inversion">
+                  <h6
+                    class="card__title card__title--s card__title--inverse title--upp"
+                  >
+                    Десктопные приложения
+                  </h6>
                 </figcaption>
               </figure>
             </li>
@@ -175,9 +198,12 @@
                     width="370"
                   />
                 </div>
-                <figcaption class="card__caption card__caption--absolute">
-                  <h6 class="card__title title--upp">
-                  Мобильные приложения</h6>
+                <figcaption class="card__caption card__caption--inversion">
+                  <h6
+                    class="card__title card__title--s card__title--inverse title--upp"
+                  >
+                    Мобильные приложения
+                  </h6>
                 </figcaption>
               </figure>
             </li>
@@ -190,9 +216,12 @@
                     width="370"
                   />
                 </div>
-                <figcaption class="card__caption card__caption--absolute">
-                  <h6 class="card__title title--upp">
-                  Дизайнерские решения</h6>
+                <figcaption class="card__caption card__caption--inversion">
+                  <h6
+                    class="card__title card__title--s card__title--inverse title--upp"
+                  >
+                    Дизайнерские решения
+                  </h6>
                 </figcaption>
               </figure>
             </li>
@@ -205,23 +234,22 @@
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="cards section__cards">
-            <li class="cards__list">
+            <li class="cards__list cards__list--with-shadow">
               <figure class="card cards__card">
                 <div class="card__image-box">
-                  <img class="card__image"
+                  <img
+                    class="card__image"
                     src="./img/our-team-img1.jpg"
                     alt="Игорь Демьяненко"
                     width="270"
                   />
                 </div>
                 <figcaption class="card__caption">
-                  <h5 class="card__title--m">Игорь Демьяненко</h5>
-                  <p lang="en" class="card__text">
-                    Product Designer
-                  </p>
-                  <ul class="buttons">
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                  <h5 class="card__title">Игорь Демьяненко</h5>
+                  <p lang="en" class="card__text">Product Designer</p>
+                  <ul class="buttons card__buttons">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -230,8 +258,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -240,8 +268,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -250,8 +278,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -264,7 +292,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="cards__list">
+            <li class="cards__list cards__list--with-shadow">
               <figure class="card cards__card">
                 <div class="card__image-box">
                   <img
@@ -274,13 +302,11 @@
                   />
                 </div>
                 <figcaption class="card__caption">
-                  <h5 class="card-title--m">Ольга Репина</h5>
-                  <p lang="en" class="card__text">
-                    Frontend Developer
-                  </p>
-                  <ul class="buttons">
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                  <h5 class="card__title">Ольга Репина</h5>
+                  <p lang="en" class="card__text">Frontend Developer</p>
+                  <ul class="buttons card__buttons">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -289,8 +315,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -299,8 +325,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -309,8 +335,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -323,7 +349,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="cards__list">
+            <li class="cards__list cards__list--with-shadow">
               <figure class="card cards__card">
                 <div class="card__image-box">
                   <img
@@ -333,11 +359,11 @@
                   />
                 </div>
                 <figcaption class="card__caption">
-                  <h5 class="card-title--m">Николай Тарасов</h5>
+                  <h5 class="card__title">Николай Тарасов</h5>
                   <p lang="en" class="card__text">Marketing</p>
-                  <ul class="buttons">
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                  <ul class="buttons card__buttons">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -346,8 +372,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -356,8 +382,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -366,8 +392,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -380,7 +406,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="cards__list">
+            <li class="cards__list cards__list--with-shadow">
               <figure class="card cards__card">
                 <div class="card__image-box">
                   <img
@@ -390,11 +416,11 @@
                   />
                 </div>
                 <figcaption class="card__caption">
-                  <h5 class="card-title--m">Михаил Ермаков</h5>
+                  <h5 class="card__title">Михаил Ермаков</h5>
                   <p lang="en" class="card__text">UI Designer</p>
-                  <ul class="buttons">
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                  <ul class="buttons card__buttons">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -403,8 +429,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -413,8 +439,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -423,8 +449,8 @@
                         </svg>
                       </a>
                     </li>
-                    <li class="buttons__list">
-                      <a class="button button--round button--inversion buttons__button" href="#">
+                    <li class="buttons buttons__list--round">
+                      <a class="button button--round buttons__button" href="#">
                         <svg width="20" height="20">
                           <use
                             class="button__icon"
@@ -447,44 +473,62 @@
           <h2 class="section__title">Постоянные клиенты</h2>
           <ul class="buttons">
             <li class="buttons__list buttons__list--margin-l">
-              <a class="button button--inversion " href="#">
+              <a class="button button--with-border" href="#">
                 <svg width="45" height="50">
-                  <use class="button__icon" href="./img/sprite.svg#logo-1"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#logo-1"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="buttons__list buttons__list--margin-l">
-              <a class="button button--inversion " href="#">
+              <a class="button button--with-border" href="#">
                 <svg width="45" height="50">
-                  <use class="button__icon" href="./img/sprite.svg#logo-2"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#logo-2"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="buttons__list buttons__list--margin-l">
-              <a class="button button--inversion " href="#">
+              <a class="button button--with-border" href="#">
                 <svg width="45" height="50">
-                  <use class="button__icon" href="./img/sprite.svg#logo-3"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#logo-3"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="buttons__list buttons__list--margin-l">
-              <a class="button button--inversion " href="#">
+              <a class="button button--with-border" href="#">
                 <svg width="45" height="50">
-                  <use class="button__icon" href="./img/sprite.svg#logo-4"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#logo-4"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="buttons__list buttons__list--margin-l">
-              <a class="button button--inversion " href="#">
+              <a class="button button--with-border" href="#">
                 <svg width="45" height="50">
-                  <use class="button__icon" href="./img/sprite.svg#logo-5"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#logo-5"
+                  ></use>
                 </svg>
               </a>
             </li>
             <li class="buttons__list buttons__list--margin-l">
-              <a class="button button--inversion" href="#">
+              <a class="button button--with-border" href="#">
                 <svg width="45" height="50">
-                  <use class="button__icon" href="./img/sprite.svg#logo-6"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#logo-6"
+                  ></use>
                 </svg>
               </a>
             </li>
@@ -494,13 +538,13 @@
       <!--/customers section-->
     </main>
     <footer class="footer">
-      <div class="container container--right">
+      <div class="container container--align-start">
         <div class="footer__contacts">
           <a class="logo footer__logo" href="./index.html">
             <span class="logo__acsent logo__acsent--inversion">Web</span>Studio
           </a>
-          <address class="address footer__address">  
-            <ul class="address__items address__items--column">
+          <address class="address footer__address">
+            <ul class="address__items">
               <li class="address__list">г. Киев, пр-т Леси Украинки, 26</li>
               <li class="address__list">
                 <a class="address__link" href="mailto:info@example.com"
@@ -508,7 +552,9 @@
                 >
               </li>
               <li class="address__list">
-                <a class="address__link" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="address__link" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -516,51 +562,66 @@
         <div class="social footer__social">
           <h6 class="footer__title title--upp">присоединяйтесь</h6>
           <ul class="buttons footer__buttons">
-            <li class="buttons__list">
-              <a class="button button--round" href="#">
+            <li class="buttons buttons__list--round">
+              <a class="button button--round button--inversion" href="#">
                 <svg width="20" height="20">
-                  <use class="button__icon" href="./img/sprite.svg#instagram"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#instagram"
+                  ></use>
                 </svg>
               </a>
             </li>
-            <li class="buttons__list">
-              <a class="button button--round" href="#">
+            <li class="buttons buttons__list--round">
+              <a class="button button--round button--inversion" href="#">
                 <svg width="20" height="20">
-                  <use class="button__icon" href="./img/sprite.svg#twitter"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#twitter"
+                  ></use>
                 </svg>
               </a>
             </li>
-            <li class="buttons__list">
-              <a class="button button--round" href="#">
+            <li class="buttons buttons__list--round">
+              <a class="button button--round button--inversion" href="#">
                 <svg width="20" height="20">
-                  <use class="button__icon" href="./img/sprite.svg#facebook"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#facebook"
+                  ></use>
                 </svg>
               </a>
             </li>
-            <li class="buttons__list">
-              <a class="button button--round" href="#">
+            <li class="buttons buttons__list--round">
+              <a class="button button--round button--inversion" href="#">
                 <svg width="20" height="20">
-                  <use class="button__icon" href="./img/sprite.svg#linkedin"></use>
+                  <use
+                    class="button__icon"
+                    href="./img/sprite.svg#linkedin"
+                  ></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="subscrityion footer__subscrityion">
+        <div class="subscription footer__subscription">
           <h6 class="footer__title title--upp">Подпишитесь на рассылку</h6>
-          <label class="input__label">
-              <input class="input"
+          <form class="form--subscription">
+            <label class="input__label">
+              <input
+                class="input input--inversion form--subscription__intput"
                 name="email"
                 type="email"
                 placeholder="E-mail"
-                              />
-          </label>
-          <button type="submit" class="button button--size-l">
+              />
+            </label>
+            <button type="submit" class="button button--size-l">
               <span class="button__span">Подписаться</span>
               <svg class="button__icon" width="24" height="24">
                 <use href="./img/sprite.svg#send"></use>
               </svg>
-          </button>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -568,83 +629,67 @@
     <!-- modal window-->
 
     <div class="backdrop is-hidden" data-modal>
-      <div class="backdrop__modal">
-        <button type="button" class="button button--round button--size-s button__backdrop" data-modal-close>
+      <div class="modal backdrop__modal">
+        <button
+          type="button"
+          class="button button--size-s button--round modal__button"
+          data-modal-close
+        >
           <svg width="11" height="11">
-            <use href="./img/sprite.svg#form-close-btn"></use>
+            <use
+              class="button__icon"
+              href="./img/sprite.svg#form-close-btn"
+            ></use>
           </svg>
         </button>
-        <form class="modal-form">
-          <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
-
-          <!--username-->
-
-          <div class="modal-field">
-            <label class="modal-label" for="form-username">Имя </label>
-            <input
-              class="modal-input"
-              name="username"
-              type="text"
-              id="form-username"
-            />
-            <svg class="modal-icons" width="16" height="16">
-              <use class="modal-icon" href="./img/sprite.svg#form-person"></use>
+        <form class="form">
+          <h3 class="form__title">Оставьте свои данные, мы вам перезвоним</h3>
+          <label class="input__label">
+            <span class="input__span">Имя</span>
+            <input class="input form__input" name="username" type="text" />
+            <svg class="input__icons" width="16" height="16">
+              <use
+                class="input__icon"
+                href="./img/sprite.svg#form-person"
+              ></use>
             </svg>
-          </div>
-
-          <!--/username-->
-          <!--tel-->
-
-          <div class="modal-field">
-            <label class="modal-label" for="form-tel">Телефон </label>
-            <input class="modal-input" name="tel" type="tel" id="form-tel" />
-
-            <svg class="modal-icons" width="16.61" height="16.61">
-              <use class="modal-icon" href="./img/sprite.svg#form-phone"></use>
+          </label>
+          <label class="input__label">
+            <span class="input__span">Телефон</span>
+            <input class="input form__input" name="tel" type="tel" />
+            <svg class="input__icons" width="16.61" height="16.61">
+              <use class="input__icon" href="./img/sprite.svg#form-phone"></use>
             </svg>
-          </div>
-
-          <!--/tel-->
-          <!--mail-->
-
-          <div class="modal-field">
-            <label class="modal-label" for="form-mail">Почта </label>
-            <input
-              class="modal-input"
-              name="mail"
-              type="email"
-              id="form-mail"
-            />
-
-            <svg class="modal-icons" width="20" height="14">
-              <use class="modal-icon" href="./img/sprite.svg#form-email"></use>
+          </label>
+          <label class="input__label">
+            <span class="input__span">Почта</span>
+            <input class="input form__input" name="mail" type="email" />
+            <svg class="input__icons" width="20" height="14">
+              <use class="input__icon" href="./img/sprite.svg#form-email"></use>
             </svg>
-          </div>
-
-          <!--/mail-->
-          <!--message-->
-
-          <label class="modal-label" for="message">Комментарий </label>
-          <textarea
-            class="modal-input modal-message"
-            name="message"
-            placeholder="Введите текст"
-            id="message"
-            rows="6"
-          ></textarea>
+          </label>
+          <label class="input__label">
+            <span class="input__span">Комментарий</span>
+            <textarea
+              class="input input--message"
+              name="message"
+              placeholder="Введите текст"
+              rows="6"
+            ></textarea>
+          </label>
 
           <!--/message-->
           <!--checkbox-->
 
           <input
-            class="modal-checkbox"
+            class="checkbox form__checkbox"
             type="checkbox"
             name="agreement-checkbox"
             id="form-checkbox"
           />
-          <label class="modal-agreement flex" for="form-checkbox">
+          <label class="checkbox__label" for="form-checkbox">
             Соглашаюсь с рассылкой и принимаю
-            <a class="modal-link" href="#">Условия договора</a>
+            <a class="checkbox__link" href="#">Условия договора</a>
           </label>
 
           <!--/checkbox-->
