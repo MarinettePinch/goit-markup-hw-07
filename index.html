@@ -546,11 +546,11 @@
             </li>
           </ul>
         </div>
-        <div class="subscrityion footer__subscrityion">
+        <div class="subscription footer__subscription">
           <h6 class="footer__title title--upp">Подпишитесь на рассылку</h6>
-          <form class="subscrityion-form">
+          <form class="form--subscription">
             <label class="input__label">
-                <input class="input input--inversion"
+                <input class="input input--inversion form--subscription__intput"
                   name="email"
                   type="email"
                   placeholder="E-mail"
@@ -570,7 +570,7 @@
     <!-- modal window-->
 
     <div class="backdrop is-hidden" data-modal>
-      <div class="backdrop__modal">
+      <div class="modal backdrop__modal">
         <button type="button" class="button button--size-s button--round modal__button" data-modal-close>
           <svg width="11" height="11">
             <use class="button__icon" href="./img/sprite.svg#form-close-btn"></use>
@@ -578,9 +578,10 @@
         </button>
         <form class="form">
           <h3 class="form__title">Оставьте свои данные, мы вам перезвоним</h3>
-            <label class="input__label">Имя 
+            <label class="input__label">
+              <span class="input__span">Имя</span> 
               <input
-                class="input"
+                class="input form__input"
                 name="username"
                 type="text"
               />
@@ -588,17 +589,19 @@
                 <use class="input__icon" href="./img/sprite.svg#form-person"></use>
               </svg>
             </label>
-            <label class="input__label">Телефон 
+            <label class="input__label">
+              <span class="input__span">Телефон</span>  
                 <input
-                  class="input"
-                  name=name="tel" type="tel"/>
+                  class="input form__input"
+                  name="tel" type="tel"/>
                 <svg class="input__icons" width="16.61" height="16.61">
                   <use class="input__icon" href="./img/sprite.svg#form-phone"></use>
                 </svg>
               </label>
-            <label class="input__label">Почта 
+            <label class="input__label">
+              <span class="input__span">Почта</span> 
               <input
-                  class="input"
+                  class="input form__input"
                 name="mail"
                 type="email"
               />
@@ -606,7 +609,8 @@
                 <use class="input__icon" href="./img/sprite.svg#form-email"></use>
               </svg>
             </label>
-            <label class="input__label">Комментарий 
+            <label class="input__label">
+              <span class="input__span">Комментарий</span>  
               <textarea
                 class="input input--message"
                 name="message"
@@ -620,14 +624,14 @@
           <!--checkbox-->
 
           <input
-            class="form__checkbox"
+            class="checkbox form__checkbox"
             type="checkbox"
             name="agreement-checkbox"
             id="form-checkbox"
           />
-          <label class="form__agreement" for="form-checkbox">
+          <label class="checkbox__label" for="form-checkbox">
             Соглашаюсь с рассылкой и принимаю
-            <a class="form__link" href="#">Условия договора</a>
+            <a class="checkbox__link" href="#">Условия договора</a>
           </label>
 
           <!--/checkbox-->
