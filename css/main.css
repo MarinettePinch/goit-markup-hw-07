@@ -525,7 +525,7 @@ body {
   min-width: 44px;
   min-height: 44px;
   border-radius: 50%;
-  padding: 0;
+  padding: 0 0 0 0;
   color: #afb1b8;
   background-color: white;
 }
@@ -540,6 +540,7 @@ body {
   background-color: white;
   height: 90px;
   width: 170px;
+  padding: 0 0 0 0;
   border: 1px solid #afb1b8;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -749,6 +750,7 @@ body {
   font-weight: normal;
   line-height: 1.71;
   color: #757575;
+  cursor: pointer;
 }
 
 .checkbox__label::before {

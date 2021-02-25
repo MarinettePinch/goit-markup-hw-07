@@ -37,7 +37,7 @@
   min-width: 44px;
   min-height: 44px;
   border-radius: 50%;
-  padding: 0;
+  padding: 0 0 0 0;
   color: $icons-color;
   background-color: $light-text-color;
   &:hover,
@@ -52,6 +52,7 @@
   background-color: $light-text-color;
   height: 90px;
   width: 170px;
+  padding: 0 0 0 0;
   border: 1px solid $icons-color;
   transition: border-color $transition-animation;
   &:hover,
