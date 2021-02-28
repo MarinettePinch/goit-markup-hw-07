@@ -40,7 +40,7 @@ body {
   text-transform: uppercase;
 }
 
-.header, .footer, .page-nav, .page-nav__items, .address__items--row, .cards, .buttons, .form--subscription, .checkbox__label {
+.header, .footer, .page-nav, .page-nav__items, .address__items--row, .address__link--row, .cards, .buttons, .form--subscription, .checkbox__label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

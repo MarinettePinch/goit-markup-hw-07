@@ -27,6 +27,7 @@
 }
 
 .address__link--row {
+  @extend %flex-sb;
   font-size: $mail-text-size;
   line-height: $mail-text-line-height;
   font-weight: $header-text-weight;
